@@ -18,7 +18,7 @@ public class Conklin_4_GuessingGame {
      * @param args the command line arguments
      */
    static void numberGame(Scanner scanner, Random random, int tries){
-       int max = 10;
+       int max = 5;
         int answer = random.nextInt(max + 1);
         System.out.println("Welcome to the WORLD FAMOUS NUMBER GUESSING GAME!!!!!");
         System.out.println("What is your name?");
@@ -50,7 +50,7 @@ public class Conklin_4_GuessingGame {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-        numberGame(scanner, random, 10);
+        numberGame(scanner, random, 5);
     }
     
 }
